@@ -8,8 +8,8 @@ import java.util.ListIterator;
 public class iterator {
 
     /*
-    iterator´Â ArrayList, HashSet°ú °°Àº ÄÃ·º¼ÇÀ» ¹İº¹ÇÏ´Â µ¥ »ç¿ëÇÒ ¼ö ÀÖ´Â °´Ã¼´Ù.
-    iterator´Â ¹İº¹ÀÇ ±â¼ú ¿ë¾î±â ¶§¹®¿¡ ¹İº¹ÀÚ¶ó°í ÇÑ´Ù
+    iteratorëŠ” ArrayList, HashSetê³¼ ê°™ì€ ì»¬ë ‰ì…˜ì„ ë°˜ë³µí•˜ëŠ” ë° ì‚¬ìš©í•  ìˆ˜ ìˆëŠ” ê°ì²´ë‹¤.
+    iteratorëŠ” ë°˜ë³µì˜ ê¸°ìˆ  ìš©ì–´ê¸° ë•Œë¬¸ì— ë°˜ë³µìë¼ê³  í•œë‹¤
     */
 
     public static void main(String[] args) {
@@ -22,7 +22,7 @@ public class iterator {
         for (Iterator<String> iterator = fruits.iterator(); iterator.hasNext();) {
             String fruit = iterator.next();
             System.out.println(fruit);
-            // iterator.remove(); // ¼øÈ¸ÇÏ´Â µ¿¾È Á¦°Å °¡´É
+            // iterator.remove(); // ìˆœíšŒí•˜ëŠ” ë™ì•ˆ ì œê±° ê°€ëŠ¥
         }
 
         // System.out.println(fruits.size())
