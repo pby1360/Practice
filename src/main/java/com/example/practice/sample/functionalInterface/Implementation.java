@@ -37,11 +37,11 @@ public class Implementation {
 //        System.out.println("--- End ---");
 
         List<Inventory> inventories = Arrays.asList(
-                new Inventory("apple", 5, 100, 1500)
-                , new Inventory("banana", 12, 50, 3000)
-                , new Inventory("orange", 6, 120, 1200)
-                , new Inventory("peach", 6, 60, 5500)
-                , new Inventory("melon", 20, 15, 10000)
+                new Inventory("apple", 5, 100, 1500, true)
+                , new Inventory("banana", 12, 50, 3000, true)
+                , new Inventory("orange", 6, 120, 1200, true)
+                , new Inventory("peach", 6, 60, 5500, true)
+                , new Inventory("melon", 20, 15, 10000, true)
         );
 
         /* ※ Comparator ※ */

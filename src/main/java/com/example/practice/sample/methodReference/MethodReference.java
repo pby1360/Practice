@@ -1,8 +1,11 @@
-package com.example.practice.sample;
+package com.example.practice.sample.methodReference;
+
+import com.example.practice.sample.Inventory;
 
 import java.io.File;
-import java.io.FileFilter;
 import java.util.Arrays;
+import java.util.Comparator;
+import java.util.List;
 
 public class MethodReference {
 
@@ -19,6 +22,8 @@ public class MethodReference {
     }
 
     public static void main(String[] args) {
+
+        /* default method reference */
         MethodReference sample = new MethodReference();
         File[] files = sample.getHiddenFiles();
         System.out.println("--- Start ---");

@@ -5,14 +5,15 @@ public class Inventory {
     private int weight;
     private String name;
     private int count;
-
     private int price;
+    private boolean isFood;
 
-    public Inventory(String name, int weight, int count, int price) {
+    public Inventory(String name, int weight, int count, int price, boolean isFood) {
         this.weight = weight;
         this.name = name;
         this.count = count;
         this.price = price;
+        this.isFood = isFood;
     }
 
     public int getWeight() {
@@ -31,9 +32,14 @@ public class Inventory {
         return price;
     }
 
+    public boolean isFood() {
+        return isFood;
+    }
+
     public void soldout () {
         this.count = 0;
     }
+
     @Override
     public String toString() {
         return "Inventory{" +
@@ -41,6 +47,7 @@ public class Inventory {
                 ", name='" + name + '\'' +
                 ", count=" + count +
                 ", price=" + price +
+                ", isFood=" + isFood +
                 '}';
     }
 }
