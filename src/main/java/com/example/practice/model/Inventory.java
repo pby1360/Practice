@@ -1,4 +1,4 @@
-package com.example.practice.sample;
+package com.example.practice.model;
 
 public class Inventory {
 

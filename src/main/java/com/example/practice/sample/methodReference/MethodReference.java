@@ -1,11 +1,7 @@
 package com.example.practice.sample.methodReference;
 
-import com.example.practice.sample.Inventory;
-
 import java.io.File;
 import java.util.Arrays;
-import java.util.Comparator;
-import java.util.List;
 
 public class MethodReference {
 

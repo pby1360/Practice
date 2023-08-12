@@ -1,6 +1,6 @@
 package com.example.practice.sample.stream;
 
-import com.example.practice.sample.Inventory;
+import com.example.practice.model.Inventory;
 
 import java.util.Arrays;
 import java.util.List;
